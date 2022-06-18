@@ -1,15 +1,17 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Checkbox label="Male" />
+  <Checkbox label="Female" />
+  <Checkbox label="Other" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CheckBox from './components/CheckBox.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Checkbox: CheckBox
   }
 }
 </script>
